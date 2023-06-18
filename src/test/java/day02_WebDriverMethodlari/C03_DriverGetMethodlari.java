@@ -33,7 +33,7 @@ public class C03_DriverGetMethodlari {
         String expectedUrl = "https://www.wisequarter.com";
         String actualUrl = driver.getCurrentUrl();
 
-        if (actualUrl.equals(actualUrl)) {
+        if (expectedUrl.equals(actualUrl)) {
             System.out.println("Url testi PASSED");
 
         } else{
